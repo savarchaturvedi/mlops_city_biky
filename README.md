@@ -1,6 +1,5 @@
 # MLOPS PROJECT (End to End)
 
-This is project for the [MLOps ZoomCamp](https://github.com/DataTalksClub/mlops-zoomcamp) course [here](https://github.com/DataTalksClub/mlops-zoomcamp/blob/main/07-project/README.md) sponsored by [DataTalks.Club](https://datatalks.club/)
 
 ## Problem
 This is a simple end-to-end mlops project which takes data from [capital bikeshare](https://ride.capitalbikeshare.com/system-data) and transforms it with machine learning pipelines from training, model tracking and experimenting with [mlflow](https://mlflow.org/docs/latest/index.html#), ochestration with [prefect](https://orion-docs.prefect.io/) as workflow tool to deploying the model as a web service.
@@ -16,11 +15,7 @@ In the future I hope to improve the project by having the entire infrastructure 
 
 ## Project Setup
 
-Clone the project from the repository
 
-```
-git clone https://github.com/PatrickCmd/mlops-project.git
-```
 
 Change to mlops-project directory
 
@@ -122,4 +117,4 @@ prefect deployment run mlflow-staging/deploy-mlflow-staging
 
 ## Deploy model as a web service locally
 
-Change to `webservice` directory and follow the instructions [here](https://github.com/PatrickCmd/mlops-project/blob/main/web_service/README.md)
+Change to `webservice` directory 
